@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tinyRender"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\anaconda3\;CMake Files\..\..\..\..\opt\anaconda3\lib\;CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\;CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5\;CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Widgets\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyRender">
+				<Option output="/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/tinyRender" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/tinyRender_autogen/include"/>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.14_1/include"/>
+					<Add directory="/Users/yjp/opt/anaconda3/include/qt"/>
+					<Add directory="/Users/yjp/opt/anaconda3/include/qt/QtCore"/>
+					<Add directory="/Users/yjp/opt/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/Users/yjp/opt/anaconda3/include/qt/QtGui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/yjp/opt/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 tinyRender"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyRender/fast">
+				<Option output="/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/tinyRender" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/tinyRender_autogen/include"/>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.14_1/include"/>
+					<Add directory="/Users/yjp/opt/anaconda3/include/qt"/>
+					<Add directory="/Users/yjp/opt/anaconda3/include/qt/QtCore"/>
+					<Add directory="/Users/yjp/opt/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/Users/yjp/opt/anaconda3/include/qt/QtGui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/yjp/opt/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 tinyRender/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyRender_autogen">
+				<Option working_dir="/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 tinyRender_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/camera.cpp">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/camera.h">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/tinyRender_autogen/mocs_compilation.cpp">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/geometry.cpp">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/geometry.h">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/global.h">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/headers/frameBuffer.h">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/main.cpp">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/model.cpp">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/model.h">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/pipeline.cpp">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/renderThread.h">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/resources/frameBuffer.cpp">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/shader/shader.cpp">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/shader/shader.h">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/texture.h">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/tgaimage.cpp">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/tgaimage.h">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/vertex.cpp">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/vertex.h">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/window.cpp">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/window.h">
+			<Option target="tinyRender"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/yjp/nju/大三下/graphics/tinyRender/../../../../opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/CMakeFiles/tinyRender.dir
+/Users/yjp/nju/大三下/graphics/tinyRender/cmake-build-debug/CMakeFiles/tinyRender_autogen.dir
